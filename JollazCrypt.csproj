@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Jonathan Lazaro</Authors>
+    <Description>This package intents to be an useful way to (de)crypt an (un)hash strings and/or integers.</Description>
+    <Copyright>Copyright (c) 2018 Jonathan Lazaro</Copyright>
+    <PackageLicenseUrl>https://github.com/jonathanlazaro1/jollazcrypt/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/jonathanlazaro1/jollazcrypt</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/jonathanlazaro1/jollazcrypt</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageReleaseNotes>1.0.0.0:
+
+This is the first version going to the wild. It contains:
+- a (de)crypter to/from AES, expecting the text to be converted and the key;
+- a (un)hasher to/from HMACSHA1 (10000 salt), which returns a key/pair value containing the hashed text and the salt, respectively.
+
+Feel free to contribute and add more crypters/hashers!</PackageReleaseNotes>
+    <PackageTags>crypt decrypt hash unhash hmac aes</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Cryptography.KeyDerivation" Version="2.0.2" />
+  </ItemGroup>
+
+</Project>
