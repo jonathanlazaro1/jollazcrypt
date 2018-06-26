@@ -10,12 +10,9 @@
     <RepositoryUrl>https://github.com/jonathanlazaro1/jollazcrypt</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <NeutralLanguage>en</NeutralLanguage>
-    <PackageReleaseNotes>This is the first version going to the wild. It contains:
-- a (de)crypter to/from AES, which receives the text to be converted and the key;
-- a (un)hasher to/from HMACSHA1 (10000 salts), which receives the text and returns a key/value pair containing the hashed text and the salt, respectively.
-
-Feel free to contribute and add more crypters/hashers!</PackageReleaseNotes>
+    <PackageReleaseNotes>Crypter had a fixed key. Changed to receive the key from user.</PackageReleaseNotes>
     <PackageTags>crypt decrypt hash unhash hmac aes</PackageTags>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

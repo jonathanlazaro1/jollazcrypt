@@ -1,6 +1,10 @@
 
-bin/
+jollazcrypt/bin/
 
-obj/
+jollazcrypt/obj/
+
+examples/bin/
+
+examples/obj/
 
 \.vs/
