@@ -10,9 +10,9 @@
     <RepositoryUrl>https://github.com/jonathanlazaro1/jollazcrypt</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <NeutralLanguage>en</NeutralLanguage>
-    <PackageReleaseNotes>Crypter had a fixed key. Changed to receive the key from user.</PackageReleaseNotes>
+    <PackageReleaseNotes>Removed AES (de)crypter, as it needs a lot of improvement. Hope to put it back soon!</PackageReleaseNotes>
     <PackageTags>crypt decrypt hash unhash hmac aes</PackageTags>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
