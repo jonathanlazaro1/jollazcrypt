@@ -21,7 +21,9 @@ First of all, import the namespace where you want to use the tool.
 `using JollazCrypt;`
 ### Hash
 Use the *Hash* method, which expects the text to be hashed and the hash type you want. Ex:
+
 `string myPlainText = "myPlainText";`
+
 `KeyValuePair<string, string> hashedText = JollazHasherUtil.Hash(myPlainText, HashType.HmacSha1);`
 
 The return is a KeyValuePair, where key is the hashed text and value is the salt.
